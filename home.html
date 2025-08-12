@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            font-family: Poppins;
+        }
+        nav{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            padding: 25px;
+            border-bottom: 2px solid grey;
+            
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0 20px;
+            
+        }
+        nav a:hover{
+            color: tomato;
+        }
+        header{
+            padding-top: calc(50px + 1rem + 2px);
+            
+        }
+        h1{
+            margin-top: 100px;
+            font-size: 3.75rem;
+            font-weight: bold;
+            line-height: 1.2em;
+        }
+        h1 + p {
+            width: 800px;
+            max-width: 90%;
+            margin: 35px auto;
+        }
+        #book-button{
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(to right, #D786FF , #722CFF);
+            display: inline-block;
+            padding: 1em 3em;
+            font-weight: 600;
+            border-radius: 1000px;
+            transition: 150ms ease;
+        }
+        #book-button:hover{
+            scale: 1.2;
+        }
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Testimonial</a>
+        <a href="">Signup</a>
+        <a href="">Login</a>
+    </nav>  
+    <header style="text-align: center;">
+       <h1>
+        Discover & Book <br>
+        Unforgettable Events Near You
+       </h1>
+       <p>Find the best concerts, workshops, festivals, and more — all in one place. Whether you’re planning a night out or looking for the perfect experience, our easy-to-use platform helps you browse, compare, and secure your spot instantly. Join thousands of happy attendees and never miss out on the events that matter most to you!</p>
+       <a href="book.html" id="book-button">BOOK NOW!</a>
+    </header>
+</body>
+</html>
